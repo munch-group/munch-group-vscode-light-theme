@@ -1,0 +1,27 @@
+{
+	"name": "munch-group-light-theme",
+	"displayName": "Munch Group Light Theme",
+	"description": "A calm, warm light theme for VS Code inspired by the Light Modern theme",
+	"version": "0.1.0",
+	"publisher": "munch-group",
+	"author": {
+		"name": "Kasper Munch",
+		"email": "kaspermunch@birc.au.dk"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Munch Group Light",
+				"uiTheme": "vs",
+				"path": "./themes/munch-group-light.json"
+			}
+		]
+	}
+}

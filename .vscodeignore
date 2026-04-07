@@ -1,0 +1,5 @@
+.gitignore
+light_modern.json
+pixi.toml
+*.vsix
+.pixi/

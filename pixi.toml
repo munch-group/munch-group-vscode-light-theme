@@ -1,0 +1,26 @@
+[workspace]
+authors = ["Kasper Munch <kaspermunch@birc.au.dk>"]
+channels = ["conda-forge", "munch-group"]
+name = "munch-group-vscode-light-theme"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+# Install the @vscode/vsce packaging tool via npm
+install-deps = "npm install @vscode/vsce"
+
+# Package the theme into a .vsix file for distribution
+build = { cmd = "npx vsce package --allow-missing-repository", depends-on = ["install-deps"] }
+
+# Install the packaged theme into VS Code
+install = { cmd = "code --install-extension munch-group-light-theme-0.1.0.vsix", depends-on = ["build"] }
+
+# Uninstall the theme from VS Code
+uninstall = "code --uninstall-extension munch-group.munch-group-light-theme"
+
+# Remove build artifacts
+clean = "rm -f munch-group-light-theme-*.vsix && rm -rf node_modules"
+
+[dependencies]
+nodejs = ">=18"
