@@ -139,10 +139,10 @@
 		"terminalCursor.foreground": "#C15F3C",
 		"textBlockQuote.background": "#F4F3EE",
 		"textBlockQuote.border": "#D3D1C7",
-		"textCodeBlock.background": "#F4F3EE",
+		"textCodeBlock.background": "#FFFFFF",
 		"textLink.activeForeground": "#A84E30",
 		"textLink.foreground": "#C15F3C",
-		"textPreformat.background": "#0000001f",
+		"textPreformat.background": "#FFFFFF1f",
 		"textPreformat.foreground": "#444441",
 		"textSeparator.foreground": "#D3D1C7",
 		"titleBar.activeBackground": "#F4F3EE",
@@ -151,7 +151,9 @@
 		"titleBar.inactiveBackground": "#F4F3EE",
 		"titleBar.inactiveForeground": "#888780",
 		"welcomePage.tileBackground": "#F1EFE8",
-		"widget.border": "#D3D1C7"
+		"widget.border": "#D3D1C7",
+		"notebook.editorBackground": "#FAF9F6",
+		"notebook.cellEditorBackground": "#FFFFFF"
 	},
 	"tokenColors": [
 		{

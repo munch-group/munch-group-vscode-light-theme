@@ -23,5 +23,8 @@
 				"path": "./themes/munch-group-light.json"
 			}
 		]
+	},
+	"dependencies": {
+		"@vscode/vsce": "^3.7.1"
 	}
 }
