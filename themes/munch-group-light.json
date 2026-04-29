@@ -152,8 +152,8 @@
 		"titleBar.inactiveForeground": "#888780",
 		"welcomePage.tileBackground": "#F1EFE8",
 		"widget.border": "#D3D1C7",
-		"notebook.editorBackground": "#FAF9F6",
-		"notebook.cellEditorBackground": "#FFFFFF"
+		"notebook.editorBackground": "#FFFFFF",
+		"notebook.cellEditorBackground": "#FAF9F6"
 	},
 	"tokenColors": [
 		{
