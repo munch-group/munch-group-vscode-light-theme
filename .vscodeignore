@@ -1,5 +1,11 @@
 .gitignore
+.gitattributes
+.github/**
 light_modern.json
 pixi.toml
+pixi.lock
+package-lock.json
+node_modules/**
+.pixi/**
+.vscode/**
 *.vsix
-.pixi/

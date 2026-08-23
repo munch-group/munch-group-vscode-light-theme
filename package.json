@@ -2,13 +2,28 @@
 	"name": "munch-group-light-theme",
 	"displayName": "Munch Group Light Theme",
 	"description": "A calm, warm light theme for VS Code inspired by the Light Modern theme",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"publisher": "munch-group",
 	"author": {
 		"name": "Kasper Munch",
 		"email": "kaspermunch@birc.au.dk"
 	},
 	"license": "SEE LICENSE IN LICENSE",
+	"icon": "images/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/munch-group/munch-group-vscode-light-theme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/munch-group/munch-group-vscode-light-theme/issues"
+	},
+	"homepage": "https://github.com/munch-group/munch-group-vscode-light-theme#readme",
+	"keywords": [
+		"theme",
+		"color-theme",
+		"light",
+		"light theme"
+	],
 	"engines": {
 		"vscode": "^1.80.0"
 	},
@@ -24,7 +39,7 @@
 			}
 		]
 	},
-	"dependencies": {
+	"devDependencies": {
 		"@vscode/vsce": "^3.9.1"
 	}
 }
